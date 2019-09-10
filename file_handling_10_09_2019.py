@@ -1,0 +1,5 @@
+fp = open("/home/shantanu/Documents/Python3/python3/CS50.py")
+fp.write("python is fun")
+fp.seek(0)
+print (fp.read())
+fp.close()
